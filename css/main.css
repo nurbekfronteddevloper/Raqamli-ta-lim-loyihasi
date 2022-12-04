@@ -37,6 +37,9 @@ a{
 .navbar-item{
   margin-left: 35px;
 }
+.navbar-item a:hover{
+  color: #07348C;
+}
 .navbar-item a{
   font-size: 20px;
   font-weight: 400;
@@ -380,4 +383,9 @@ a{
     cursor: pointer;
     -webkit-transition: .4s;
     transition: .4s;
+}
+.nav-link{
+  color: #000;
+  font-weight: 400;
+
 }
