@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+
+  .container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: 	#7fffd4;
+  }
+
+  form  {
+    padding-top: 100px;
+    padding: 20px;
+    padding: 100px 20px 20px 20px;
+  }
+
+.username:focus , .password:focus{
+  outline: none !important;
+}
+
+  form .username, .password{
+    margin-top: 10px;
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: none;
+  }
+  .login-btn{
+    margin-left: 30px;
+    padding: 6px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(59, 59, 199);
+    color:#fff;
+   }
+   .remember{
+    color: rgb(163,200,202);
+   }
+</style>
+<body>
+
+  <div class="container">
+    <form action="">
+      <input  class="username " type="text"   placeholder="Id raqam">
+      <input class="password"  type="password"  placeholder="password" >
+      <input type="checkbox" name="remember">
+      <label class="remember" for="remember">eslab qolish</label>
+      <button class="login-btn">Kirish</button>
+    </form>
+  </div>
+</body>
+</html>
