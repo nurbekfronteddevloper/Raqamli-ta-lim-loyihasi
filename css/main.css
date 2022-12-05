@@ -1,5 +1,4 @@
 /* ummiy stillar  */
-
 *{
   margin: 0;
   padding: 0;
@@ -18,11 +17,22 @@ a{
 /*/ ummiy stillar  */
 /* start navbar style  */
 
+/* nabvar fixid  */
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+} */
+
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 25px;
+  padding: 10px 20px;
+  margin-right: 20px;
 }
 .logo img{
   width: 75px;
@@ -35,7 +45,7 @@ a{
 }
 
 .navbar-item{
-  margin-left: 35px;
+  margin-right: 35px;
 }
 .navbar-item a:hover{
   color: #07348C;
@@ -48,25 +58,16 @@ a{
 
 /* /navbar style  */
 
-
-/* modal window  */
-
-.tumanlar {
-  position: absolute;
-  left: 1150px;
-}
-
 .main-section{
   margin: 0 auto;
 }
 .main-section img {
   width: 96vw;
+  padding-top: 80px;
   margin: 1vw;
 
 }
-
 /*platform  style  */
-
 .platform-description{
   bottom: -170px;
   left: 350px;
