@@ -6,3 +6,12 @@ $(window).scroll(function () {
     $("#navbar").removeClass("floatingNav");
   }
 });
+
+const loader = document.querySelector(".loader-one");
+console.log(loader);
+document.addEventListener("DOMContentLoaded" , () => {
+  setTimeout(() =>{
+    loader.style.display = "none";
+  }) ;
+
+});

@@ -14,6 +14,7 @@ li{
 a{
   text-decoration: none;
 }
+
 /*/ ummiy stillar  */
 /* start navbar style  */
 
@@ -65,6 +66,7 @@ a{
 
 .main-section{
   margin: 0 auto;
+
 }
 .main-section img {
   width: 96vw;
@@ -74,8 +76,9 @@ a{
 }
 /*platform  style  */
 .platform-description{
-  bottom: -170px;
-  left: 350px;
+  position: absolute;
+  bottom: -410px;
+  left: 390px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -84,6 +87,8 @@ a{
   background-color: rgb(17, 17, 48);
   padding: 20px;
   border-radius: 15px;
+  margin-bottom: 60px;
+
 }
 .platform-description h2{
   color: #fff;
